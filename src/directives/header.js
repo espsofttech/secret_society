@@ -94,7 +94,7 @@ const Header = (props) => {
                     <ul className="navbar-nav ml-auto">
                       <li>
                         <div className="social-buttons lead-1">
-                          <a className="social-facebook" href="#"><i className="fab fa-discord" /></a>
+                          <a className="social-facebook" href="#"><img src="assets/img/Discord-Logo.png" width="25px" style={{"filter":"brightness(0) invert(1)","object-fit":"contain"}} /></a>
                           <a className="social-twitter" href="#"><i className="fab fa-twitter" /></a>
                           <a className="social-instagram" href="#"><i className="fab fa-instagram" /></a>
                           <a className="social-dribbble" href="#"><i className="fab fa-opensea"><img src="assets/img/ship.png" style={{width: '21px', marginTop: '-3px'}} /></i></a>

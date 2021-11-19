@@ -121,7 +121,7 @@ function Home() {
               <div className="col-lg-12 mx-auto banner">
                 <div>
                   <h4>MINT IN</h4>
-                  <div id="countdown" className="col-sm-5 ml-auto mr-auto">
+                  <div id="countdown" className="col-sm-5 col-9 ml-auto mr-auto">
                     <ul>
                       {/* <li><span id="days" />days</li>
                       <li><span id="hours" />Hours</li>
@@ -135,10 +135,10 @@ function Home() {
                     </ul>
                   </div>
                   <div className="row">
-                      <div className="col-md-5">
+                      <div className="col-md-5 col-3">
                         </div>
 
-                      <div className="col-md-2">
+                      <div className="col-md-2 col-6">
                         <div className="input-group mint-box d-flex mt-1">
                             <span className="input-group-btn" >
                               <button type="button" onClick={e => minusQuantity(e)} className="btn btn-sm btn-border text-white btn-number" data-type="minus" data-field="quant[2]">
@@ -163,7 +163,7 @@ function Home() {
 
                         </div>
                       </div>
-                      <div className="col-md-5">
+                      <div className="col-md-5 col-3">
                         </div>
                   </div>
                   <h2>
@@ -260,12 +260,12 @@ function Home() {
                 <p className="lead-1">Oschino Vasquez is a popular rapper who has written and produced multiple songs, mixtapes and studio albums. He has worked with some of the greatest rap artists of all time including Jay-Z and Kayne West. Oschino has enjoyed a successful rapping and acting career through his affiliation with State Property in the early 2000s when he was signed to Roc-a-Fella Records along with Beanie Sigel, Freeway, Peedi Crakk, Omillio Sparks, and the duo Young Gunz (Young Chris and Neef Buck). State Property OST topped the Billboard R&amp;B/Hip Hop Album Chart in 2002 and The Chain Gang Vol. 2 topped the Billboard R&amp;B/Hip Hop Album Chart in 2003. That’s right, both albums hit #1. In 2002 their first album ended Nas’ reign of Stillmatic and in 2003 they ended the Soundtrack of Bad Boys II’s reign. He is arguably one of the greatest artists with a mic and a paint brush. </p>
               </div>
             </div>
-            <div className="oschino col-sm-12">
+            <div className="oschino ">
               <div className="row">
-                <div className="col-sm-6 col-6 pr-2">
+                <div className="col-sm-6 col-12 ">
                   <img src="assets/img/Oschino1.jpg" className="oschino-img" />
                 </div>
-                <div className="col-sm-6 col-6 pl-2">
+                <div className="col-sm-6 col-12 ">
                   <img src="assets/img/Oschino3.jpg" className="oschino-img" />
                 </div>
               </div>
@@ -274,10 +274,10 @@ function Home() {
         </section>
         {/* /.End Content Area */}
         {/* Start Content Area */}
-        <section id="overview" className="content-section latest-articles position-relative text-center text-light parallax-window" data-parallax="scroll" data-image-src style={{ backgroundColor: 'rgb(32 13 15)' }}>
+        <section id="overview" className="content-section latest-articles club-section position-relative text-center text-light parallax-window" data-parallax="scroll" data-image-src style={{ backgroundColor: 'rgb(32 13 15)' }}>
           <div className="container position-relative">
             <div className="row">
-              <div className="col-md-7 mb-9 mb-md-0 text-left">
+              <div className="col-md-7  mb-md-0 text-left">
                 <header className>
                   <h2 className="text-light italicfont">THE SPECS</h2>
                   {/* <hr class="w-10 border-warning border-top-2 o-90"> */}
@@ -286,8 +286,8 @@ function Home() {
                 <p className="lead-1">The Odd Fellows are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. (See Record and Proof.) Purchasing an Odd Fellow costs 0.08 ETH.</p>
                 <p className="lead-1">To access members-only areas such as the Merch Store, and future integrations, Odd Fellows will need to be signed into their MetaMask Wallet.</p>
               </div>
-              <div className="col-md-4 mb-9 mb-md-0">
-                <img src="assets/img/stateproperty.jpg" />
+              <div className="col-md-4  mb-md-0">
+                <img src="assets/img/stateproperty.jpg"  class="stateproperty" style={{height: '400px'}} />
               </div>
             </div>
           </div>
@@ -367,7 +367,7 @@ function Home() {
                     <p className="goal">100%</p>
                   </div>
                   <div className="m-auto col-lg-10 col-9">
-                    <p className="text-decoration-line-through common-sub-p">TBD</p>
+                  <p class="text-decoration-line-through common-sub-p">Earth shattering, game-changing, announcements will be revealed within 24 hours of sellout. The party and passive income making from the 100% of the royalties going back to the community has only just begun</p>
                   </div>
                 </div>
               </div>
@@ -391,10 +391,10 @@ function Home() {
                 </a><figcaption><a href="team.html">
                 </a><h5 className="text-light mt-1 mb-0"><a href="team.html" /><a href="#" className="text-light">Jeremy Dunn</a></h5>
                       <div className="social-buttons lead-1">
-                        <a className="social-facebook" href="#"><i className="fab fa-facebook" /></a>
-                        <a className="social-twitter" href="#"><i className="fab fa-twitter" /></a>
-                        <a className="social-instagram" href="#"><i className="fab fa-instagram" /></a>
-                        <a className="social-dribbble" href="#"><i className="fab fa-linkedin" /></a>
+                          <a className="social-facebook" target="_blank" href="https://www.facebook.com/jeremiah.m.dunn/"><i className="fab fa-facebook" /></a>
+                          <a className="social-twitter" target="_blank" href="https://twitter.com/jeremiah_dunn"><i className="fab fa-twitter" /></a>
+                          <a className="social-instagram" target="_blank" href="https://www.instagram.com/jeremiahdunn/"><i className="fab fa-instagram" /></a>
+                          <a className="social-dribbble" target="_blank" href="  https://www.linkedin.com/in/jeremiahdunn/"><i className="fab fa-linkedin" /></a>
                       </div>
                       {/* <hr class="w-10 my-6 my-xl-7 border-warning"> */}
                       {/* <p class="lead-1">"Mauris tempus enim lorem, nec egestas est fringilla ut. Quisque iaculis dui egestas mi blandit viverra. Nulla luctus vulputate iaculis. Nulla facilisi."</p>
@@ -406,15 +406,17 @@ function Home() {
               <div className="col-md-4 mb-9 mb-md-0">
                 <a href="team.html">
                 </a><article className="card article-post bg-dark_A-40 border border-secondary py-6 px-5"><a href="team.html">
-                  <div className="position-relative overflow-hidden br-n   article-image ar-1_1 w-70 mx-auto  border border-secondary mb-3" style={{ backgroundImage: 'url(assets/img/avatar/Oschino_Painting.jpg)', backgroundSize: '100% 100%' }} />
+                  <div className="position-relative overflow-hidden br-n   article-image ar-1_1 w-70 mx-auto  border border-secondary mb-3" style={{ backgroundImage: 'url(assets/img/oschino_kids.jpg)', backgroundSize: '100% 100%' }} />
                 </a><figure><a href="team.html">
                 </a><figcaption><a href="team.html">
                 </a><h5 className="text-light mt-1 mb-0"><a href="team.html" /><a href="#" className="text-light">Oschino Vasquez</a></h5>
                       <div className="social-buttons lead-1">
-                        <a className="social-facebook" href="#"><i className="fab fa-facebook" /></a>
-                        <a className="social-twitter" href="#"><i className="fab fa-twitter" /></a>
-                        <a className="social-instagram" href="#"><i className="fab fa-instagram" /></a>
-                        <a className="social-dribbble" href="#"><i className="fab fa-linkedin" /></a>
+
+                        <a className="social-instagram" target="_blank" href=" https://www.instagram.com/oschinovasquez1/"><i className="fab fa-instagram" /></a>
+                        <a className="social-instagram" target="_blank" href=" https://open.spotify.com/artist/59h9wM4IPZZKUcMGiMaCJn?si=IpIPkYg4T16Pav0WrrEXAg"><img src="assets/img/spotify.png" width="18px" style={{"margin-top":"-3px"}} /></a>
+                        <a className="social-instagram" target="_blank" href=" https://music.apple.com/us/artist/oschino/2091128"><img src="assets/img/apple-music.png" width="18px" style={{"margin-top":"-3px"}} /></a>
+                        <a className="social-dribbble" target="_blank" href="https://www.youtube.com/c/OschinoVasquez"><i className="fab fa-youtube" /></a>
+
                       </div>
                       {/*  <hr class="w-10 my-6 my-xl-7 border-warning">
                               <blockquote>
@@ -433,10 +435,10 @@ function Home() {
                 </a><figcaption><a href="team.html">
                 </a><h5 className="text-light mt-1 mb-0"><a href="team.html" /><a href="#" className="text-light">Redouane Belhadi</a></h5>
                       <div className="social-buttons lead-1">
-                        <a className="social-facebook" href="#"><i className="fab fa-facebook" /></a>
-                        <a className="social-twitter" href="#"><i className="fab fa-twitter" /></a>
-                        <a className="social-instagram" href="#"><i className="fab fa-instagram" /></a>
-                        <a className="social-dribbble" href="#"><i className="fab fa-linkedin" /></a>
+                      <a className="social-instagram" target="_blank" href="https://music.amazon.com/artists/B09J17N2M6/redouane-belhadi"><img src="assets/img/amazon-music.png" width="25px" style={{"margin-top":"-3px"}} /></a>
+                      <a className="social-instagram" target="_blank" href="https://www.instagram.com/red1gfx/"><i className="fab fa-instagram" /></a>
+                      <a className="social-twitter" target="_blank" href="https://twitter.com/red1gfx"><i className="fab fa-twitter" /></a>
+                      <a className="social-dribbble" target="_blank" href="https://www.youtube.com/c/RED1GFX"><i className="fab fa-youtube" /></a>
                       </div>
                       {/* <hr class="w-10 my-6 my-xl-7 border-warning">
                               <blockquote>
