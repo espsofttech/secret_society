@@ -14611,9 +14611,7 @@ button.close:focus {
 .text-light h5, .text-light .h5,
 .text-light h6, .text-light .h6 {
   color: #f8f9fa !important;
-  /* font-family: cursive!important; */
-  font-family: "Montserrat",sans-serif!important;
- }
+  font-family: cursive!important; }
 .text-light .section-header small {
   color: #f8f9fa !important; }
 
@@ -15989,11 +15987,7 @@ a.social-youtube:hover {
 .navbar-nav > .nav-item > .nav-link {
   font-size: 0.8rem;
   line-height: 3.625rem;
-      /* font-family: cursive; */
-      font-style: italic;
-      font-family: "Montserrat",sans-serif!important;
-    
-    }
+      font-family: cursive; }
 
 .navbar-toggler:focus {
   outline: 0; }
@@ -20450,8 +20444,7 @@ ul.list-style-square {
     background: linear-gradient(45deg, #361b16, #ae7d5c);
     /* background-color: #000; */
     color: #fff;
-    /* font-family: cursive; */
-    font-family: "Montserrat",sans-serif!important;
+    font-family: cursive;
     font-weight: 500;
 }
 .club-section {
@@ -20482,7 +20475,7 @@ ul.list-style-square {
     list-style: none;
 }
 .banner h2 {
-    margin-top: 30px;
+    margin-top: 81px;
     font-size: 26px;
     /* color: #000!important; */
     /* background: #00000091; */
@@ -20556,42 +20549,8 @@ body .common-p {
 
 }
 @media only screen and (max-width: 425px) {
-  .content-section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-  .pb-md-1 {
-    padding-bottom: 1em!important;
-}
-.pt-md-1 {
-  padding-top: 1em!important;
-}
-  .readmore_content p {
-    text-align: justify;
-}
-.btn-number {
-  width: 100%!important;
-  padding: 0 13px!important;
-}
-.banner .form-control {
-  margin-top: 0px;
-}
-.banner_section h2 {
-    font-size: 28px;
-    padding-top: 12px;
-}
-  img.penthouse-club {
-    width: 221px!important;
-    height: 87px!important;
-}
   .banner {
-    margin-top: 55px;
-}
-.mint-box {
-  border: none!important;
-  box-shadow: 0 0 15px rgb(240 233 233 / 79%);
-  background: transparent!important;
-  margin-top: 11px!important;
+    margin-top: 144px;
 }
 .stateproperty{
   width: 100%;
@@ -20609,14 +20568,8 @@ body .common-p {
  
 .navbar-expand-lg .navbar-nav .nav-link {
     font-family: "Montserrat",sans-serif!important;
-    /* line-height: 3.5; */
-    line-height: 1;
+    line-height: 3.5;
     font-style: italic;
-}
-.navbar-nav .social-buttons {
-  margin-top: 14px!important;
-  margin-bottom: 14px;
-  margin-right: 11px;
 }
 .club-section {
     background: linear-gradient(rgb(0 0 0 / 81%), rgb(0 0 0 / 97%)), url(../img/wallpaper.jpg)!important;
@@ -20648,53 +20601,36 @@ body .common-p {
     padding-bottom: 0px;
 }
 .banner h2 {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-size: 22px;
-  /* color: #000!important; */
-  /* background: #00000091; */
-}
-.highlight {
-  color: yellow;
-  /* text-shadow: 0px 0px #f7f8f9; */
-  font-size: 22px;
-  font-weight: 500;
-  text-transform: capitalize;
-  animation: color-change 1s infinite;
-}
-#countdown li span {
-  font-size: 18px!important;
-}
-#countdown li {
-  font-size: 10px!important;
+    margin-top: 30px;
+    font-size: 26px;
+    /* color: #000!important; */
+    /* background: #00000091; */
 }
 
 .btn-border {
-  /* border: 2px solid #fff; */
-  border-radius: 4px;
-  padding: 3px 20px;
-  background: linear-gradient(45deg, #361b16, #ae7d5c);
-  height: 37px;
-  margin-left: auto;
-  /* margin-top: 39px; */
-  width: 145px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  line-height: 27px!important;
+    /* border: 2px solid #fff; */
+    border-radius: 4px;
+    padding: 3px 20px;
+    background: linear-gradient(45deg, #361b16, #ae7d5c);
+    height: 37px;
+    margin-left: auto;
+    /* margin-top: 39px; */
+    width: 145px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    line-height: 27px!important;
 }
   .partner-logo .logo-1 {
     display: inline-block;
     min-width: auto;
     text-align: center;
-    margin-bottom: 3rem;
-    font-size: 20px;
-    margin-top: 3rem;
-    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
     margin-right: 0px!important;
     padding: 0px 49px;
 }
 .partner-logo .logo-1 img {
-    height: 70px;
+    height: 54px;
     object-fit: cover;
     width: auto;
     padding: 9px 0px;
@@ -20727,39 +20663,6 @@ body .mint {
     font-weight: 500;
 }
   
-}
-@media only screen and (max-width: 320px) {
-  .partner-logo .logo-1 img {
-    height: 65px;
-    object-fit: cover;
-    width: auto;
-    padding: 9px 0px;
-}
-#countdown li {
-  display: inline-block;
-  /* font-size: 1.5em; */
-  list-style-type: none;
-  font-size: 12px;
-  padding: 4px 4px!important;
-  /* border-right: 1px solid #ccc; */
-  text-transform: uppercase;
-}
-.banner h2 {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-size: 20px;
-  /* color: #000!important; */
-  /* background: #00000091; */
-}
-.highlight {
-  color: yellow;
-  /* text-shadow: 0px 0px #f7f8f9; */
-  font-size: 20px;
-  font-weight: 500;
-  text-transform: capitalize;
-  animation: color-change 1s infinite;
-}
-
 }
 /*19/10/2021*/
 .team_detail .carousel-product .slider img {
@@ -21022,15 +20925,4 @@ div#countdown {
 }
 .text-justify {
     text-align: justify!important;
-}
-.team-section a i {
-  font-size: 20px;
-}
-.italicfont {
-  
-  font-style: italic;
-  font-weight: 800;
-}
-#roadmap p {
-  text-align: justify;
 }

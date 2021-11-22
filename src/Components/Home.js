@@ -120,7 +120,7 @@ function Home() {
             <div className="row align-items-center">
               <div className="col-lg-12 mx-auto banner">
                 <div>
-                  <h4>MINT IN</h4>
+                  <h4>MINT JANUARY 15th, 5:00pm EST</h4>
                   <div id="countdown" className="col-sm-5 col-9 ml-auto mr-auto">
                     <ul>
                       {/* <li><span id="days" />days</li>
@@ -145,12 +145,12 @@ function Home() {
                                   <span className="fa fa-minus"></span>
                               </button>
                             </span>
-                            <input type="text" onKeyPress={(event) => {
+                            <input type="text"  onKeyPress={(event) => {
                               if (!/^\d*[]?\d{0,1}$/.test(event.key)) {
                                   event.preventDefault();
                               }
                             }} className="form-control border-form" name="purchased_quantity" placeholder="Quantity" value={purchased_quantity}
-                              onChange={e => handleChange(e)} style={{ fontSize: '12px', height: '37px',color:'#fff',background:'transparent' ,fontWeight: '600'}} />
+                              onChange={e => handleChange(e)} style={{ fontSize: '12px', height: '37px',color:'#fff',background:'transparent' ,fontWeight: '600',textAlign: 'center'}} />
 
                             <span className="input-group-btn">
                               <button type="button" onClick={e => plusQuantity(e)} className="btn btn-sm btn-border text-white btn-number" data-type="plus" data-field="quant[2]">
@@ -274,7 +274,7 @@ function Home() {
         </section>
         {/* /.End Content Area */}
         {/* Start Content Area */}
-        <section id="overview" className="content-section latest-articles club-section position-relative text-center text-light parallax-window" data-parallax="scroll" data-image-src style={{ backgroundColor: 'rgb(32 13 15)' }}>
+        <section id="overview" className="content-section latest-articles  position-relative text-center text-light parallax-window" data-parallax="scroll" data-image-src style={{ backgroundColor: 'rgb(32 13 15)' }}>
           <div className="container position-relative">
             <div className="row">
               <div className="col-md-7  mb-md-0 text-left">
@@ -308,8 +308,8 @@ function Home() {
             <header className=" text-center mb-5">
               <h2 className="italicfont">ROADMAP ACTIVATIONS</h2>
               <hr className="w-10 border-warning border-top-2 o-90" />
-              <p>We’re in this for the long haul, as Puff Daddy once said, “We Ain’t, Going Nowhere.”</p>
-              <p>Secret Society of Odd Fellows has been in the works for months, the team has given their all to this project, pulling out all the stops. Alongside our amazing team, we also have an abundance of partnerships that we can’t wait to roll out! Our roadmap shows exactly what we’re working towards in the short term. Each milestone unlocks when a certain % of Odd Fellows have been minted. Additional future developments will be decided and voted upon by the SSoOF community as a whole.
+              <p className="text-center">We’re in this for the long haul, as Puff Daddy once said, “We Ain’t, Going Nowhere.”</p>
+              <p>Secret Society of Odd Fellows has been in the works for months. Arguably, you can say, my entire career has led us to this moment. The team has given their all to this project, pulling out all the stops. Alongside our amazing team, we also have an abundance of partnerships that we can’t wait to roll out! Our roadmap shows exactly what we’re working towards in the short term. Each milestone unlocks when a certain % of Odd Fellows have been minted. Additional future developments and partnerships will be decided and voted upon by the SSoOF community.
               </p>
             </header>
             <div className="row">
@@ -319,7 +319,7 @@ function Home() {
                     <p className="goal">10%</p>
                   </div>
                   <div className="m-auto col-lg-10 col-9">
-                    <p className="text-decoration-line-through common-sub-p">We pay back daughter 1’s college fund. Hopefully she’ll learn more than any college will ever be able to teach her through this project and what we will achieve.</p>
+                    <p className="text-decoration-line-through common-sub-p">Congratulations, and let me be the first to welcome you to the Secret Society of Odd Fellows. The first NFT project of its kind.</p>
                   </div>
                 </div>
                 <div className="mb-3 mb-lg-1 row">
@@ -327,7 +327,7 @@ function Home() {
                     <p className="goal">20%</p>
                   </div>
                   <div className="m-auto col-lg-10 col-9">
-                    <p className="text-decoration-line-through common-sub-p">We pay back daughter 2’s college fund. Ditto. And she better start cleaning her room.</p>
+                    <p className="text-decoration-line-through common-sub-p">The Secret Society of Odd Fellows community wallet is opened. 100% of the royalties we collect will go into the community wallet, where we, as a community, can decide on all kinds of dope shit, like donating to a charity, helping a fellow Odd Fellow, sweeping the floor, buying out epic sporting events, concert venues, yacht parties, private islands, private jets, the sky is literally the limit. Get your popcorn ready.</p>
                   </div>
                 </div>
                 <div className="mb-3 mb-lg-1 row">
@@ -335,15 +335,7 @@ function Home() {
                     <p className="goal">40%</p>
                   </div>
                   <div className="m-auto col-lg-10 col-9">
-                    <p className="text-decoration-line-through common-sub-p">The Secret Society of Odd Fellows community wallet is opened. 100% of the royalties we collect will go into the community wallet, where we, as a community, can decide on all kinds of dope shit, like donating to a charity, helping a fellow Odd Fellow, buying out epic sporting events, concert venues, yacht parties, private islands, private jets, the sky is literally the limit. Get your popcorn ready.</p>
-                  </div>
-                </div>
-                <div className="mb-3 mb-lg-1 row">
-                  <div className="m-auto col-lg-1 col-2 offset-lg-1 offset-1">
-                    <p className="goal">40%</p>
-                  </div>
-                  <div className="m-auto col-lg-10 col-9">
-                    <p className="text-decoration-line-through common-sub-p">But wait, there’s more. From the 100% of the royalties we collect, we realize not everyone would like to pool their money together, or share, which is cool. So we’re going to distribute 50% of the royalties from the community wallet, on the 1st of the month, among the token holders who hold an Odd Fellow. Yep, you heard it right. 100% of the royalties will go back to our community, being distributed equally between our community as a whole, and the token holders individually. We can have fun together, and we can have fun individually.</p>
+                    <p className="text-decoration-line-through common-sub-p">But wait, there’s more. From the 100% of the royalties we collect that will go into the community wallet, we realize not everyone would like to pool their money together, which is cool. So we’re going to distribute 50% of the royalties from the community wallet, on the 1st of the month, among the token holders who hold an Odd Fellow. Yep, you heard it right. 100% of the royalties will go back to our community, being distributed equally between our community, and the token holders individually. The fun has only just begun.</p>
                   </div>
                 </div>
                 <div className="mb-3 mb-lg-1 row">
@@ -351,7 +343,7 @@ function Home() {
                     <p className="goal">60%</p>
                   </div>
                   <div className="m-auto col-lg-10 col-9">
-                    <p className=" common-sub-p">Some of the Odd Fellows NFTs will be airdropped to our early adopters and supporters. We will put a large focus on our social medias, Discord, connections and relationships in order to ramp up the project and send SSoOF to the moon. When the project wins, we all win.</p>
+                    <p className="text-decoration-line-through common-sub-p">Some of the Odd Fellows NFTs will be airdropped to our early adopters and supporters. We will put a large focus on our social medias, Discord, connections, and relationships to ramp up the project and send SSoOF to the moon. When the project wins, we all win and. We will continue to strategically increase the value of our token over time through meaningful, long lasting relationships.</p>
                   </div>
                 </div>
                 <div className="mb-3 mb-lg-1 row">
@@ -359,15 +351,23 @@ function Home() {
                     <p className="goal">80%</p>
                   </div>
                   <div className="m-auto col-lg-10 col-9">
-                    <p className="text-decoration-line-through common-sub-p">SSoOF member-exclusive merch store gets unlocked, featuring limited edition tees, hoodies, and all kinds of other dope shit. To access the Merch Store, and future integrations, Odd Fellows will need to be signed into their MetaMask Wallet.</p>
+                    <p className=" common-sub-p">SSoOF member-exclusive merch store gets unlocked, featuring limited edition tees, hoodies, and all kinds of other dope shit. To access the Merch Store, and future integrations, Odd Fellows will need to be signed into their MetaMask Wallet.</p>
                   </div>
                 </div>
+                {/* <div className="mb-3 mb-lg-1 row">
+                  <div className="m-auto col-lg-1 col-2 offset-lg-1 offset-1">
+                    <p className="goal">80%</p>
+                  </div>
+                  <div className="m-auto col-lg-10 col-9">
+                    <p className="text-decoration-line-through common-sub-p">SSoOF member-exclusive merch store gets unlocked, featuring limited edition tees, hoodies, and all kinds of other dope shit. To access the Merch Store, and future integrations, Odd Fellows will need to be signed into their MetaMask Wallet.</p>
+                  </div>
+                </div> */}
                 <div className="mb-3 mb-lg-1 row">
                   <div className="m-auto col-lg-1 col-2 offset-lg-1 offset-1">
                     <p className="goal">100%</p>
                   </div>
                   <div className="m-auto col-lg-10 col-9">
-                  <p class="text-decoration-line-through common-sub-p">Earth shattering, game-changing, announcements will be revealed within 24 hours of sellout. The party and passive income making from the 100% of the royalties going back to the community has only just begun</p>
+                  <p class="text-decoration-line-through common-sub-p">Earth shattering, game-changing, announcements will be revealed within 24 hours of sellout. The party, real world utility, and passive income making from the 100% of the royalties going back to the community has only just begun. Looking forward to this journey together.</p>
                   </div>
                 </div>
               </div>
@@ -376,14 +376,14 @@ function Home() {
         </section>
         {/* /.End Content Area */}
         {/* Start Content Area */}
-        <section id="team" className="content-section latest-articles position-relative text-center text-light parallax-window" data-parallax="scroll" data-image-src="assets/img/team.jpg" data-overlay={7}>
+        <section id="team" className="content-section team-section latest-articles position-relative text-center text-light parallax-window" data-parallax="scroll" data-image-src="assets/img/team.jpg" data-overlay={7}>
           <div className="container position-relative">
             <header className="section-header">
               <h2 className="text-light italicfont">OUR TEAM</h2>
               <hr className="w-10 border-warning border-top-2 o-90" />
             </header>
             <div className="row">
-              <div className="col-md-4 mb-9 mb-md-0">
+              <div className="col-md-4 mb-7 mb-md-0">
                 <a href="team.html">
                 </a><article className="card article-post bg-dark_A-40 border border-secondary py-6 px-5"><a href="team.html">
                   <div className="position-relative overflow-hidden br-n   article-image ar-1_1 w-70 mx-auto  border border-secondary mb-3" style={{ backgroundImage: 'url(assets/img/avatar/Jeremy_Dunn.jpg)', backgroundSize: '100% 100%' }} />
@@ -403,7 +403,7 @@ function Home() {
                   </figure>
                 </article>
               </div>
-              <div className="col-md-4 mb-9 mb-md-0">
+              <div className="col-md-4 mb-7 mb-md-0">
                 <a href="team.html">
                 </a><article className="card article-post bg-dark_A-40 border border-secondary py-6 px-5"><a href="team.html">
                   <div className="position-relative overflow-hidden br-n   article-image ar-1_1 w-70 mx-auto  border border-secondary mb-3" style={{ backgroundImage: 'url(assets/img/oschino_kids.jpg)', backgroundSize: '100% 100%' }} />
@@ -413,8 +413,8 @@ function Home() {
                       <div className="social-buttons lead-1">
 
                         <a className="social-instagram" target="_blank" href=" https://www.instagram.com/oschinovasquez1/"><i className="fab fa-instagram" /></a>
-                        <a className="social-instagram" target="_blank" href=" https://open.spotify.com/artist/59h9wM4IPZZKUcMGiMaCJn?si=IpIPkYg4T16Pav0WrrEXAg"><img src="assets/img/spotify.png" width="18px" style={{"margin-top":"-3px"}} /></a>
-                        <a className="social-instagram" target="_blank" href=" https://music.apple.com/us/artist/oschino/2091128"><img src="assets/img/apple-music.png" width="18px" style={{"margin-top":"-3px"}} /></a>
+                        <a className="social-instagram" target="_blank" href=" https://open.spotify.com/artist/59h9wM4IPZZKUcMGiMaCJn?si=IpIPkYg4T16Pav0WrrEXAg"><img src="assets/img/spotify.png" width="20px" style={{"margin-top":"-6px"}} /></a>
+                        <a className="social-instagram" target="_blank" href=" https://music.apple.com/us/artist/oschino/2091128"><img src="assets/img/apple-music.png" width="20px" style={{"margin-top":"-6px"}} /></a>
                         <a className="social-dribbble" target="_blank" href="https://www.youtube.com/c/OschinoVasquez"><i className="fab fa-youtube" /></a>
 
                       </div>
@@ -435,10 +435,10 @@ function Home() {
                 </a><figcaption><a href="team.html">
                 </a><h5 className="text-light mt-1 mb-0"><a href="team.html" /><a href="#" className="text-light">Redouane Belhadi</a></h5>
                       <div className="social-buttons lead-1">
-                      <a className="social-instagram" target="_blank" href="https://music.amazon.com/artists/B09J17N2M6/redouane-belhadi"><img src="assets/img/amazon-music.png" width="25px" style={{"margin-top":"-3px"}} /></a>
-                      <a className="social-instagram" target="_blank" href="https://www.instagram.com/red1gfx/"><i className="fab fa-instagram" /></a>
-                      <a className="social-twitter" target="_blank" href="https://twitter.com/red1gfx"><i className="fab fa-twitter" /></a>
-                      <a className="social-dribbble" target="_blank" href="https://www.youtube.com/c/RED1GFX"><i className="fab fa-youtube" /></a>
+                      <a className="social-instagram" target="_blank" href="https://music.amazon.com/artists/B09J17N2M6/redouane-belhadi"><img src="assets/img/apple-music.png" width="20px" style={{"margin-top":"-6px"}} /></a>
+                      <a className="social-instagram" target="_blank" href="https://www.instagram.com/redouane_belhadi/"><i className="fab fa-instagram" /></a>
+                      {/* <a className="social-twitter" target="_blank" href="https://twitter.com/red1gfx"><i className="fab fa-twitter" /></a>
+                      <a className="social-dribbble" target="_blank" href="https://www.youtube.com/c/RED1GFX"><i className="fab fa-youtube" /></a> */}
                       </div>
                       {/* <hr class="w-10 my-6 my-xl-7 border-warning">
                               <blockquote>

@@ -71,7 +71,7 @@ const Header = (props) => {
                 <div className="row mt-5">
                   <button className="navbar-toggler navbar-toggler-fixed mt-5" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="collapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">☰</button>
                   <div className="collapse navbar-collapse" id="collapsingNavbar">
-                    <ul className="navbar-nav mr-auto">
+                    <ul className="navbar-nav mr-auto pt-md-1 ">
                       <li className="nav-item">
                         <a className="nav-link" href="#">BUY AN ODD FELLOW </a>
                       </li>&nbsp;
@@ -91,7 +91,7 @@ const Header = (props) => {
                                  <a class="nav-link" href="#">Team</a>
                                  </li> */}
                     </ul>
-                    <ul className="navbar-nav ml-auto">
+                    <ul className="navbar-nav ml-auto pb-md-1">
                       <li>
                         <div className="social-buttons lead-1">
                           <a className="social-facebook" href="#"><img src="assets/img/Discord-Logo.png" width="25px" style={{"filter":"brightness(0) invert(1)","object-fit":"contain"}} /></a>
