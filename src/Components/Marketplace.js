@@ -103,58 +103,76 @@ function Marketplace() {
                 <div className="marketplace">
                   <div className="row">
                     <div className="col-sm-4">
+          
                       <div className="box-market">
                         <img src="assets/img/1.jpg" />
                         <h4>Art</h4>
                       </div>
+              
                     </div>
                     <div className="col-sm-4">
+                    
                       <div className="box-market">
                         <img src="assets/img/2.jpg" />
                         <h4>NFT</h4>
                       </div>
+              
                     </div>
                     <div className="col-sm-4">
+            
                       <div className="box-market">
                         <img src="assets/img/3.jpg" />
-                        <h4>MUSIC</h4>
+                        <h4>Music</h4>
                       </div>
+             
                     </div>
                     <div className="col-sm-4">
+       
                       <div className="box-market">
                         <img src="assets/img/1.jpg" />
                         <h4>Art</h4>
                       </div>
+               
                     </div>
                     <div className="col-sm-4">
+             
                       <div className="box-market">
                         <img src="assets/img/2.jpg" />
                         <h4>NFT</h4>
                       </div>
+           
                     </div>
                     <div className="col-sm-4">
+             
                       <div className="box-market">
                         <img src="assets/img/3.jpg" />
-                        <h4>MUSIC</h4>
+                        <h4>Music</h4>
                       </div>
+                  
                     </div>
                     <div className="col-sm-4">
+               
                       <div className="box-market">
                         <img src="assets/img/1.jpg" />
-                        <h4>ART</h4>
+                        <h4>Art</h4>
                       </div>
+             
                     </div>
                     <div className="col-sm-4">
+                
                       <div className="box-market">
                         <img src="assets/img/2.jpg" />
-                        <h4>NFT</h4>
+                        <h4>NFt</h4>
                       </div>
+                  
                     </div>
                     <div className="col-sm-4">
+       
                       <div className="box-market">
                         <img src="assets/img/3.jpg" />
-                        <h4>MUSIC</h4>
+                        <h4>Music</h4>
                       </div>
+                
                     </div>
                   </div>
                 </div>

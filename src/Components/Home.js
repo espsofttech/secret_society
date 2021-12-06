@@ -139,7 +139,7 @@ function Home() {
                         </div>
 
                       <div className="col-md-2 col-6">
-                        <div className="input-group mint-box d-flex mt-1">
+                        {/* <div className="input-group mint-box d-flex mt-1">
                             <span className="input-group-btn" >
                               <button type="button" onClick={e => minusQuantity(e)} className="btn btn-sm btn-border text-white btn-number" data-type="minus" data-field="quant[2]">
                                   <span className="fa fa-minus"></span>
@@ -157,9 +157,9 @@ function Home() {
                                   <span className="fa fa-plus"></span>
                               </button>
                             </span>
-                        </div>
+                        </div> */}
                         <div className="ml-auto me-auto mt-5">
-                          <button className="btn text-white btn-border">Mint</button>
+                          {/* <button className="btn text-white btn-border">Mint</button> */}
 
                         </div>
                       </div>
@@ -214,33 +214,27 @@ function Home() {
                 <div>
                   <h2 className="ls-1 italicfont">WELCOME TO THE<br />SECRET SOCIETY OF ODD FELLOWS</h2>
                   {/* <hr class="w-10 border-warning border-top-2 o-90"> */}
-                  <p className="lead-1">Secret Society of Odd Fellows is a collection of 10,000 Odd Fellows NFTs—unique digital collectibles, secretly living on the Ethereum blockchain. Your Odd Fellow doubles as your Secret Society membership card, and grants you access to members-only benefits. The first of which is real world utility; VIP Access, Table Service and Bottle Service including a FREE Bottle of Liquor at the Penthouse Gentlemen’s Club Baltimore for you and 5 of your closest friends (must be 21 and older to enter club and must hold Odd Fellow in your MetaMask Wallet). Future exclusive benefits can be unlocked by the community through roadmap activation, which will include all kinds of other dope shit. 100% of the Royalties from sales on OpenSea will go into the community wallet, because it ain’t no fun, if the homies can’t have none. Yep, you heard it right. 100% of the royalties will go back to our community.</p>
+                  <p className="lead-1">Secret Society of Odd Fellows is a collection of 10,000 Odd Fellows NFTs—unique digital collectibles, secretly living on the Ethereum blockchain. Your Odd Fellow doubles as your Secret Society membership card, and grants you access to members-only benefits. The first of which is real world utility; VIP Access, Table Service and Bottle Service including a FREE Bottle of Liquor at the Penthouse Gentlemen’s Club Baltimore for you and 4 of your closest friends (must be 21 and older to enter club and must hold Odd Fellow in your MetaMask Wallet). Future exclusive benefits can be unlocked by the community through roadmap activation, which will include all kinds of other dope shit. 100% of the Royalties from sales on OpenSea will go into the community wallet, because it ain’t no fun, if the homies can’t have none. Yep, you heard it right. 100% of the royalties will go back to our community.</p>
                 </div>
               </div>
               <div className="col-sm-6 col-md-6 col-lg-4 mx-auto mb-7 md-lg-0">
                 <div className="common-container">
                   <div className="row">
-                    <div className="pb-2 pr-2 col-6"><img className="img-fluid" src="assets/img/1_.webp" alt="ape1" aria-label="ape1" /></div>
-                    <div className="pb-2 pl-2 col-6"><img className="img-fluid" src="assets/img/2_.webp" alt="ape2" aria-label="ape2" /></div>
+                    <div className="pb-2 pr-2 col-6"><img className="img-fluid" src="assets/img/1.png" alt="ape1" aria-label="ape1" /></div>
+                    <div className="pb-2 pl-2 col-6"><img className="img-fluid" src="assets/img/2.png" alt="ape2" aria-label="ape2" /></div>
                   </div>
                   <div className="row">
-                    <div className="pt-2 pr-2 col-6"><img className="img-fluid" src="assets/img/3_.webp" alt="ape3" aria-label="ape3" /></div>
-                    <div className="pt-2 pl-2 col-6"><img className="img-fluid" src="assets/img/4_.jpg" aria-label="ape4" /></div>
+                    <div className="pt-2 pr-2 col-6"><img className="img-fluid" src="assets/img/3.png" alt="ape3" aria-label="ape3" /></div>
+                    <div className="pt-2 pl-2 col-6"><img className="img-fluid" src="assets/img/4.png" aria-label="ape4" /></div>
                   </div>
                 </div>
               </div>
               <div className="mb-5 mt-5 pt-5 col-lg-12 pl-0 pr-0">
                 <div className="col">
                   <div id="buy-an-ape" className="buy-token-container">
-                    <div className="bayc-bg p-4 m-auto row">
-                      <div className="m-auto col-lg-3 col-12">
-                        <h3 className="buy-ape-title">BUY AN ODD FELLOW </h3>
-                      </div>
-                      <div className="m-auto col-lg-4 col-12 offset-lg-1">
-                        <p className="common-p mb-lg-0">The initial sale has sold out. To get your collectibles , check out the collection on OpenSea.</p>
-                      </div>
-                      <div className="m-auto col-lg-3 col-12 offset-lg-1"><a href="#"><button className="bayc-button mint" type="button">BUY NFT ON OPENSEA</button></a></div>
-                    </div>
+                    <a href="https://discord.com/invite/oddfellowsnft" target="_blank" className="discord_btn">
+                      <img src="assets/img/discord_btn.png" className="btn_discord"></img>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -252,12 +246,12 @@ function Home() {
         <section id="characters" className="characters content-section latest-articles text-light" data-parallax="scroll" data-image-src="assets/img/1.webp" data-overlay={7}>
           <div className="container">
             <header className="section-header text-center">
-              <h2 className="italicfont" style={{ position: 'relative' }}>FEATURING THE <br />LEGENDARY COLLECTION X OSCHINO</h2>
+              <h2 className="italicfont" style={{ position: 'relative'  }}>FEATURING THE <br />LEGENDARY COLLECTION X OSCHINO</h2>
               <hr className="w-10 border-warning border-top-2 o-90" />
             </header>
             <div className="row">
               <div className="col-sm-12 col-md-12 col-lg-12 mx-auto mb-7 md-lg-0">
-                <p className="lead-1">Oschino Vasquez is a popular rapper who has written and produced multiple songs, mixtapes and studio albums. He has worked with some of the greatest rap artists of all time including Jay-Z and Kayne West. Oschino has enjoyed a successful rapping and acting career through his affiliation with State Property in the early 2000s when he was signed to Roc-a-Fella Records along with Beanie Sigel, Freeway, Peedi Crakk, Omillio Sparks, and the duo Young Gunz (Young Chris and Neef Buck). State Property OST topped the Billboard R&amp;B/Hip Hop Album Chart in 2002 and The Chain Gang Vol. 2 topped the Billboard R&amp;B/Hip Hop Album Chart in 2003. That’s right, both albums hit #1. In 2002 their first album ended Nas’ reign of Stillmatic and in 2003 they ended the Soundtrack of Bad Boys II’s reign. He is arguably one of the greatest artists with a mic and a paint brush. </p>
+                <p className="lead-1" >Oschino Vasquez is a popular rapper who has written and produced multiple songs, mixtapes and studio albums. He has worked with some of the greatest rap artists of all time including Jay-Z and Kayne West. Oschino has enjoyed a successful rapping and acting career through his affiliation with State Property in the early 2000s when he was signed to Roc-a-Fella Records along with Beanie Sigel, Freeway, Peedi Crakk, Omillio Sparks, and the duo Young Gunz (Young Chris and Neef Buck). State Property OST topped the Billboard R&amp;B/Hip Hop Album Chart in 2002 and The Chain Gang Vol. 2 topped the Billboard R&amp;B/Hip Hop Album Chart in 2003. That’s right, both albums hit #1. In 2002 their first album ended Nas’ reign of Stillmatic and in 2003 they ended the Soundtrack of Bad Boys II’s reign. He is arguably one of the greatest artists with a mic and a paint brush. </p>
               </div>
             </div>
             <div className="oschino ">
@@ -282,7 +276,7 @@ function Home() {
                   <h2 className="text-light italicfont">THE SPECS</h2>
                   {/* <hr class="w-10 border-warning border-top-2 o-90"> */}
                 </header>
-                <p className="lead-1">Each Odd Fellow is unique and programmatically generated from over 160 possible traits, including expression, headwear, clothing, and more. All Odd Fellows are dope, but some are more rare and more dope than others, including 7 legendary 1 of 1’s by the legend himself, Oschino Vasquez.</p>
+                <p className="lead-1">Each Odd Fellow is unique and programmatically generated from over 160 possible traits, including expression, headwear, clothing, and more. All Odd Fellows are dope, but some are more rare and more dope than others, including 11 legendary 1 of 1’s by the legend himself, Oschino Vasquez.</p>
                 <p className="lead-1">The Odd Fellows are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. (See Record and Proof.) Purchasing an Odd Fellow costs 0.08 ETH.</p>
                 <p className="lead-1">To access members-only areas such as the Merch Store, and future integrations, Odd Fellows will need to be signed into their MetaMask Wallet.</p>
               </div>
@@ -309,7 +303,7 @@ function Home() {
               <h2 className="italicfont">ROADMAP ACTIVATIONS</h2>
               <hr className="w-10 border-warning border-top-2 o-90" />
               <p className="text-center">We’re in this for the long haul, as Puff Daddy once said, “We Ain’t, Going Nowhere.”</p>
-              <p>Secret Society of Odd Fellows has been in the works for months. Arguably, you can say, my entire career has led us to this moment. The team has given their all to this project, pulling out all the stops. Alongside our amazing team, we also have an abundance of partnerships that we can’t wait to roll out! Our roadmap shows exactly what we’re working towards in the short term. Each milestone unlocks when a certain % of Odd Fellows have been minted. Additional future developments and partnerships will be decided and voted upon by the SSoOF community.
+              <p>Secret Society of Odd Fellows has been in the works for months. Arguably, you can say, my entire career has led us to this moment. The team has given their all to this project, pulling out all the stops. Alongside our amazing team, we also have an abundance of partnerships that we can’t wait to roll out! Our roadmap shows exactly what we’re working towards in the short term. Each milestone unlocks when a certain % of Odd Fellows have been minted. Additional future developments and partnerships will be decided and voted upon by the SSOF community.
               </p>
             </header>
             <div className="row">
@@ -343,7 +337,7 @@ function Home() {
                     <p className="goal">60%</p>
                   </div>
                   <div className="m-auto col-lg-10 col-9">
-                    <p className="text-decoration-line-through common-sub-p">Some of the Odd Fellows NFTs will be airdropped to our early adopters and supporters. We will put a large focus on our social medias, Discord, connections, and relationships to ramp up the project and send SSoOF to the moon. When the project wins, we all win and. We will continue to strategically increase the value of our token over time through meaningful, long lasting relationships.</p>
+                    <p className="text-decoration-line-through common-sub-p">Some of the Odd Fellows NFTs will be airdropped to our early adopters and supporters. We will put a large focus on our social medias, Discord, connections, and relationships to ramp up the project and send SSOF to the moon. When the project wins, we all win and. We will continue to strategically increase the value of our token over time through meaningful, long lasting relationships.</p>
                   </div>
                 </div>
                 <div className="mb-3 mb-lg-1 row">
@@ -351,7 +345,7 @@ function Home() {
                     <p className="goal">80%</p>
                   </div>
                   <div className="m-auto col-lg-10 col-9">
-                    <p className=" common-sub-p">SSoOF member-exclusive merch store gets unlocked, featuring limited edition tees, hoodies, and all kinds of other dope shit. To access the Merch Store, and future integrations, Odd Fellows will need to be signed into their MetaMask Wallet.</p>
+                    <p className=" common-sub-p">SSOF member-exclusive merch store gets unlocked, featuring limited edition tees, hoodies, and all kinds of other dope shit. To access the Merch Store, and future integrations, Odd Fellows will need to be signed into their MetaMask Wallet.</p>
                   </div>
                 </div>
                 {/* <div className="mb-3 mb-lg-1 row">
@@ -359,7 +353,7 @@ function Home() {
                     <p className="goal">80%</p>
                   </div>
                   <div className="m-auto col-lg-10 col-9">
-                    <p className="text-decoration-line-through common-sub-p">SSoOF member-exclusive merch store gets unlocked, featuring limited edition tees, hoodies, and all kinds of other dope shit. To access the Merch Store, and future integrations, Odd Fellows will need to be signed into their MetaMask Wallet.</p>
+                    <p className="text-decoration-line-through common-sub-p">SSOF member-exclusive merch store gets unlocked, featuring limited edition tees, hoodies, and all kinds of other dope shit. To access the Merch Store, and future integrations, Odd Fellows will need to be signed into their MetaMask Wallet.</p>
                   </div>
                 </div> */}
                 <div className="mb-3 mb-lg-1 row">
@@ -383,7 +377,7 @@ function Home() {
               <hr className="w-10 border-warning border-top-2 o-90" />
             </header>
             <div className="row">
-              <div className="col-md-4 mb-7 mb-md-0">
+              <div className="col-md-4 col-12 mb-7 mb-md-0">
                 <a href="team.html">
                 </a><article className="card article-post bg-dark_A-40 border border-secondary py-6 px-5"><a href="team.html">
                   <div className="position-relative overflow-hidden br-n   article-image ar-1_1 w-70 mx-auto  border border-secondary mb-3" style={{ backgroundImage: 'url(assets/img/avatar/Jeremy_Dunn.jpg)', backgroundSize: '100% 100%' }} />
@@ -403,7 +397,7 @@ function Home() {
                   </figure>
                 </article>
               </div>
-              <div className="col-md-4 mb-7 mb-md-0">
+              <div className="col-md-4  mb-7 mb-md-0">
                 <a href="team.html">
                 </a><article className="card article-post bg-dark_A-40 border border-secondary py-6 px-5"><a href="team.html">
                   <div className="position-relative overflow-hidden br-n   article-image ar-1_1 w-70 mx-auto  border border-secondary mb-3" style={{ backgroundImage: 'url(assets/img/oschino_kids.jpg)', backgroundSize: '100% 100%' }} />

@@ -6,6 +6,7 @@ import Home from './Components/Home'
 import Team from './Components/Team'
 import Provenance from './Components/Provenance'
 import Marketplace from './Components/Marketplace'
+import Term_condition from './Components/Term_condition'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path={`${config.baseUrl}Team`} exact component={Team} />
         <Route path={`${config.baseUrl}Provenance`} exact component={Provenance} />
         <Route path={`${config.baseUrl}Marketplace`} exact component={Marketplace} />
+        <Route path={`${config.baseUrl}Term_condition`} exact component={Term_condition} />
         </Switch>
     
     </BrowserRouter>

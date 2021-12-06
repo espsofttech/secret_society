@@ -1177,11 +1177,28 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
 .ig-slider-def, .ig-slider-def .carousel-inner,
 .ig-slider-def .carousel-inner .carousel-item .ig-img {
   height: 78vh; }
+  .discord_btn_mob img {
+    width: 160px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    display: none;
+}
+  
 
 @media (min-width: 992px) {
   .ig-slider-def, .ig-slider-def .carousel-inner,
   .ig-slider-def .carousel-inner .carousel-item .ig-img {
-    height: 70vh; } }
+    height: 70vh; }
+
+    .discord_btn_mob img {
+      width: 160px;
+      border-radius: 5px;
+      margin: 10px 0px;
+      display: block;
+  }
+
+  }
+  
 .po_carousel__wrapper {
   position: absolute;
   right: 0;
@@ -1195,7 +1212,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
   justify-content: center; }
 
 @media screen and (min-width: 768px) {
-  bottom: 20px; }
+ }
 .po_carousel-indicators {
   display: flex;
   justify-content: center;
@@ -1203,6 +1220,12 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
   background: rgba(15, 19, 30, 0.9);
   border-radius: .25rem;
   margin-bottom: 0; }
+  .discord_btn_mob img {
+    width: 160px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    display: block;
+}
   .po_carousel-indicators > li {
     border-radius: 3px;
     width: 24px;
@@ -1406,7 +1429,14 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
   width: 100%;
   margin-right: auto;
   margin-left: auto; }
-
+  .discord_btn_mob img {
+    width: 160px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    display: none;
+    position: relative;
+    right: 20px;
+}
 @media screen and (min-width: 1200px) {
   .release-subheader {
     max-width: 1110px;
@@ -1419,6 +1449,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
   position: relative; }
 
 @media screen and (min-width: 576px) {
+
   .release-container {
     max-width: 540px; } }
 @media screen and (min-width: 768px) {
@@ -1426,7 +1457,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
     max-width: 720px; } }
 @media screen and (min-width: 992px) {
   .release-container {
-    max-width: 960px; } }
+    max-width: 960px; }
+   
+ }
 @media screen and (min-width: 1200px) {
   .release-container {
     max-width: 100%;

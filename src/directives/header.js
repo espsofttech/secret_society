@@ -69,6 +69,13 @@ const Header = (props) => {
             <div className="col-8 col-sm-9 col-md-10 col-lg-10   text-right">
               <nav className="navbar navbar-expand-lg  ">
                 <div className="row mt-5">
+                    <div className="discord_btn_mob">
+                    <div id="buy-an-ape" className="buy-token-container">
+                    <a href="https://discord.com/invite/oddfellowsnft" className="discord_btn">
+                      <img src="assets/img/discord_btn.png" className="btn_discord"></img>
+                    </a>
+                  </div>
+                    </div>
                   <button className="navbar-toggler navbar-toggler-fixed mt-5" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="collapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">☰</button>
                   <div className="collapse navbar-collapse" id="collapsingNavbar">
                     <ul className="navbar-nav mr-auto pt-md-1 ">
@@ -79,13 +86,13 @@ const Header = (props) => {
                         <a className="nav-link" href="#roadmap">ROADMAP </a>
                       </li>&nbsp;
                       <li className="nav-item">
-                        <NavLink className="nav-link" to={`${config.baseUrl}Team`}>TEAM </NavLink>
+                      <a className="nav-link" href="#team">TEAM </a>
                       </li>&nbsp;
                       <li className="nav-item">
-                      <NavLink className="nav-link" to={`${config.baseUrl}Marketplace`}>GALLERY </NavLink>
+                      <a className="nav-link market_link" >GALLERY </a>
                       </li>&nbsp;
                       <li className="nav-item">
-                        <a className="nav-link" href="#">MEMBERS </a>
+                        <a className="nav-link market_link">MEMBERS </a>
                       </li>
                       {/* <li class="nav-item">
                                  <a class="nav-link" href="#">Team</a>
@@ -94,10 +101,10 @@ const Header = (props) => {
                     <ul className="navbar-nav ml-auto pb-md-1">
                       <li>
                         <div className="social-buttons lead-1">
-                          <a className="social-facebook" href="#"><img src="assets/img/Discord-Logo.png" width="25px" style={{"filter":"brightness(0) invert(1)","object-fit":"contain"}} /></a>
-                          <a className="social-twitter" href="#"><i className="fab fa-twitter" /></a>
-                          <a className="social-instagram" href="#"><i className="fab fa-instagram" /></a>
-                          <a className="social-dribbble" href="#"><i className="fab fa-opensea"><img src="assets/img/ship.png" style={{width: '21px', marginTop: '-3px'}} /></i></a>
+                          <a className="social-facebook" target="_blank" href="https://discord.com/invite/oddfellowsnft"><img src="assets/img/Discord-Logo.png" width="25px" style={{"filter":"brightness(0) invert(1)","object-fit":"contain"}} /></a>
+                          <a className="social-twitter" target="_blank" href="https://twitter.com/oddfellowsnft"><i className="fab fa-twitter" /></a>
+                          <a className="social-instagram" target="_blank" href="https://www.instagram.com/oddfellowsnft/"><i className="fab fa-instagram" /></a>
+                          <a className="social-dribbble" target="_blank" href="https://opensea.io/OddFellowsNFT"><i className="fab fa-opensea"><img src="assets/img/ship.png" style={{width: '21px', marginTop: '-3px'}} /></i></a>
                         </div>
                       </li>
                       <li className="nav-item">
