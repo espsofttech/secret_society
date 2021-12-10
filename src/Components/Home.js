@@ -19,9 +19,11 @@ function Home() {
   // }, [])
   const getTimeOfStartDate = (dateTime) => {
 
-    var date = new Date(dateTime); // some mock date
-    var milliseconds = date.getTime();
-    return milliseconds;
+    // var date = new Date(dateTime); // some mock date
+    // var milliseconds = date.getTime();
+    var countDownDate = Date.parse(dateTime);
+
+    return countDownDate;
   }
 
   const CountdownTimer = ({ days, hours, minutes, seconds, completed }) => {
@@ -129,7 +131,7 @@ function Home() {
                       <li><span id="seconds" />Seconds</li> */}
                       {/* <li><span id="days" /><Countdown date={Date.now() + 10000} /></li> */}
                       <Countdown
-                        date={getTimeOfStartDate('2022-01-15 17:00:00')}
+                        date={getTimeOfStartDate('2022-01-15T17:00:00')}
                         renderer={CountdownTimer}
                       />
                     </ul>
@@ -214,18 +216,19 @@ function Home() {
                 <div>
                   <h2 className="ls-1 italicfont">WELCOME TO THE<br />SECRET SOCIETY OF ODD FELLOWS</h2>
                   {/* <hr class="w-10 border-warning border-top-2 o-90"> */}
-                  <p className="lead-1">Secret Society of Odd Fellows is a collection of 10,000 Odd Fellows NFTs—unique digital collectibles, secretly living on the Ethereum blockchain. Your Odd Fellow doubles as your Secret Society membership card, and grants you access to members-only benefits. The first of which is real world utility; VIP Access, Table Service and Bottle Service including a FREE Bottle of Liquor at the Penthouse Gentlemen’s Club Baltimore for you and 4 of your closest friends (must be 21 and older to enter club and must hold Odd Fellow in your MetaMask Wallet). Future exclusive benefits can be unlocked by the community through roadmap activation, which will include all kinds of other dope shit. 100% of the Royalties from sales on OpenSea will go into the community wallet, because it ain’t no fun, if the homies can’t have none. Yep, you heard it right. 100% of the royalties will go back to our community.</p>
+                  <p className="lead-1">Secret Society of Odd Fellows is a collection of 10,011 Odd Fellows NFTs—unique digital collectibles, secretly living on the Ethereum blockchain. Your Odd Fellow doubles as your Secret Society membership card, and grants you access to members-only benefits. The first of which is real world utility; VIP Access, Table Service and Bottle Service including a FREE Bottle of Liquor at the Penthouse Gentlemen’s Club Baltimore for you and 4 of your closest friends (must be 21 and older to enter club and must hold Odd Fellow in your MetaMask Wallet). Future exclusive benefits can be unlocked by the community through roadmap activation, which will include all kinds of other dope shit. 100% of the Royalties from sales on OpenSea will go into the community wallet, because it ain’t no fun, if the homies can’t have none. Yep, you heard it right. 100% of the royalties will go back to our community.</p>
                 </div>
               </div>
               <div className="col-sm-6 col-md-6 col-lg-4 mx-auto mb-7 md-lg-0">
                 <div className="common-container">
                   <div className="row">
-                    <div className="pb-2 pr-2 col-6"><img className="img-fluid" src="assets/img/1.png" alt="ape1" aria-label="ape1" /></div>
-                    <div className="pb-2 pl-2 col-6"><img className="img-fluid" src="assets/img/2.png" alt="ape2" aria-label="ape2" /></div>
+                    <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-6"><img className="img-fluid" src="assets/img/Odd-Fellows.png" aria-label="ape4" /></div>
+                    <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-6"><img className="img-fluid" src="assets/img/Odd-Fellows3.png" alt="ape2" aria-label="ape2" /></div>
                   </div>
-                  <div className="row">
-                    <div className="pt-2 pr-2 col-6"><img className="img-fluid" src="assets/img/3.png" alt="ape3" aria-label="ape3" /></div>
-                    <div className="pt-2 pl-2 col-6"><img className="img-fluid" src="assets/img/4.png" aria-label="ape4" /></div>
+                  <div className="row pt-2">
+                    <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-6"><img className="img-fluid" src="assets/img/Odd-Fellows2.png" alt="ape3" aria-label="ape3" /></div>
+                 
+                    <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-6"><img className="img-fluid" src="assets/img/Odd-Fellows4.png" alt="ape1" aria-label="ape1" /></div>
                   </div>
                 </div>
               </div>
