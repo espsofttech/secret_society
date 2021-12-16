@@ -381,12 +381,12 @@ function Home() {
             </header>
             <div className="row">
               <div className="col-md-4 col-12 mb-7 mb-md-0">
-                <a href="team.html">
-                </a><article className="card article-post bg-dark_A-40 border border-secondary py-6 px-5"><a href="team.html">
+                <a href="#">
+                </a><article className="card article-post bg-dark_A-40 border border-secondary py-6 px-5"><a href="#">
                   <div className="position-relative overflow-hidden br-n   article-image ar-1_1 w-70 mx-auto  border border-secondary mb-3" style={{ backgroundImage: 'url(assets/img/avatar/Jeremy_Dunn.jpg)', backgroundSize: '100% 100%' }} />
-                </a><figure><a href="team.html">
-                </a><figcaption><a href="team.html">
-                </a><h5 className="text-light mt-1 mb-0"><a href="team.html" /><a href="#" className="text-light">Jeremy Dunn</a></h5>
+                </a><figure><a href="">
+                </a><figcaption><a href="#">
+                </a><h5 className="text-light mt-1 mb-0"><a href="#" /><a href="#" className="text-light">Jeremy Dunn</a></h5>
                       <div className="social-buttons lead-1">
                           <a className="social-facebook" target="_blank" href="https://www.facebook.com/jeremiah.m.dunn/"><i className="fab fa-facebook" /></a>
                           <a className="social-twitter" target="_blank" href="https://twitter.com/jeremiah_dunn"><i className="fab fa-twitter" /></a>
@@ -401,12 +401,12 @@ function Home() {
                 </article>
               </div>
               <div className="col-md-4  mb-7 mb-md-0">
-                <a href="team.html">
-                </a><article className="card article-post bg-dark_A-40 border border-secondary py-6 px-5"><a href="team.html">
+                <a href="#">
+                </a><article className="card article-post bg-dark_A-40 border border-secondary py-6 px-5"><a href="#">
                   <div className="position-relative overflow-hidden br-n   article-image ar-1_1 w-70 mx-auto  border border-secondary mb-3" style={{ backgroundImage: 'url(assets/img/oschino_kids.jpg)', backgroundSize: '100% 100%' }} />
-                </a><figure><a href="team.html">
-                </a><figcaption><a href="team.html">
-                </a><h5 className="text-light mt-1 mb-0"><a href="team.html" /><a href="#" className="text-light">Oschino Vasquez</a></h5>
+                </a><figure><a href="#">
+                </a><figcaption><a href="#">
+                </a><h5 className="text-light mt-1 mb-0"><a href="#" /><a href="#" className="text-light">Oschino Vasquez</a></h5>
                       <div className="social-buttons lead-1">
 
                         <a className="social-instagram" target="_blank" href=" https://www.instagram.com/oschinovasquez1/"><i className="fab fa-instagram" /></a>
@@ -425,12 +425,12 @@ function Home() {
                 </article>
               </div>
               <div className="col-md-4">
-                <a href="team.html">
-                </a><article className="card article-post bg-dark_A-40 border border-secondary py-6 px-5"><a href="team.html">
+                <a href="#">
+                </a><article className="card article-post bg-dark_A-40 border border-secondary py-6 px-5"><a href="#">
                   <div className="position-relative overflow-hidden br-n  article-image ar-1_1 w-70 mx-auto  border border-secondary mb-3" style={{ backgroundImage: 'url(assets/img/avatar/team3.jpg)', backgroundSize: '100% 100%' }} />
-                </a><figure><a href="team.html">
-                </a><figcaption><a href="team.html">
-                </a><h5 className="text-light mt-1 mb-0"><a href="team.html" /><a href="#" className="text-light">Redouane Belhadi</a></h5>
+                </a><figure><a href="#">
+                </a><figcaption><a href="#">
+                </a><h5 className="text-light mt-1 mb-0"><a href="#" /><a href="#" className="text-light">Redouane Belhadi</a></h5>
                       <div className="social-buttons lead-1">
                       <a className="social-instagram" target="_blank" href="https://music.amazon.com/artists/B09J17N2M6/redouane-belhadi"><img src="assets/img/apple-music.png" width="20px" style={{"margin-top":"-6px"}} /></a>
                       <a className="social-instagram" target="_blank" href="https://www.instagram.com/redouane_belhadi/"><i className="fab fa-instagram" /></a>
